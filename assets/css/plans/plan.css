@@ -1,7 +1,8 @@
 .plan {
   width: 17rem;
   margin-left: 3rem;
-
+  transition: transform 0.3s ease;
+  will-change: transform;
 }
 
 .plan .price-container {

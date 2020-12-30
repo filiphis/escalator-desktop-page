@@ -9,11 +9,11 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  transition: background, color 0.5s;
+  transition: background-color, color 0.5s;
 }
 
 .btn:hover {
   background-color: #2ecc71;
-  transition: background, color 0.5s;
+  transition: background-color, color 0.5s;
   color: #ffffff;
 }

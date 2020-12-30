@@ -6,4 +6,23 @@ main .title {
   color: #ffffff;
   line-height: 7.4rem;
   max-width: 67.8rem;
+
+  animation-name: fade-left;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-duration: 1.2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fade-left {
+  from {
+    opacity: 0;
+    transform: translateX(-200%);
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+    transform: translateX(0%);
+  }
 }
