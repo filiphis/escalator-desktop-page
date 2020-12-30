@@ -1,0 +1,29 @@
+@import url("./-reset.css");
+@import url("./-variaveis.css");
+
+:root {
+  font-size: 60%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+body,
+input,
+button,
+textarea {
+  font-family: var(--family-primary);
+  font-size: 1.6rem;
+}
+
+.container {
+  padding: 0 10rem;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 1170px;
+}

@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  width: 24.5rem;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #ffffff;
+  color: #383838;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background, color 0.5s;
+}
+
+.btn:hover {
+  background-color: #2ecc71;
+  transition: background, color 0.5s;
+  color: #ffffff;
+}

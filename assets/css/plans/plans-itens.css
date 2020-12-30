@@ -1,0 +1,6 @@
+.plans-itens {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  transform: translateY(-130px);
+}

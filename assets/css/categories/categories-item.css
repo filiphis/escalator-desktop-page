@@ -1,0 +1,23 @@
+.categories-item {
+  height: 34.6rem;
+  margin: 1rem;
+  background-position: center;
+  background-size: cover;
+  padding: 0 3rem;
+}
+
+.categories-item h3 {
+  font-size: 5.2rem;
+  font-weight: 600;
+  line-height: 6.24rem;
+  color: #ffffff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.categories-item p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: #ffffff;
+}

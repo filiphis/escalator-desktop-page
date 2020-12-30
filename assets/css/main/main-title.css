@@ -1,0 +1,9 @@
+main .title {
+  font-size: 6.2rem;
+  font-weight: var(--font-semi-bold);
+  font-family: var(--family-primary);
+  text-align: center;
+  color: #ffffff;
+  line-height: 7.4rem;
+  max-width: 67.8rem;
+}
