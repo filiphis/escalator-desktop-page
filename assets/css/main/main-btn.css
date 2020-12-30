@@ -10,10 +10,28 @@
   text-align: center;
   text-transform: uppercase;
   transition: background-color, color 0.5s;
+
+  animation-name: fade-bottom;
+  animation-duration: 0.5s;
+  animation-delay: 2.8s;
+  animation-fill-mode: backwards;
 }
 
 .btn:hover {
   background-color: #2ecc71;
   transition: background-color, color 0.5s;
   color: #ffffff;
+}
+
+@keyframes fade-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(+200%);
+  }
+
+  to {
+    opacity: 1;
+    top: 0;
+    transform: translateY(0px);
+  }
 }
